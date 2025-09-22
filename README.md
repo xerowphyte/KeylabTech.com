@@ -45,12 +45,26 @@ Es un proyecto de e-commerce fullstack que demuestra buenas prácticas de arquit
 ---
   
 ### **Flujo de la aplicación / Ejemplo de uso**
-- Explica cómo se conectan frontend y backend, cómo se hace login, carrito, pago (sin mostrar código sensible).
+KeyLabTech es un e-commerce fullstack con arquitectura moderna, donde el **frontend en React** interactúa con el **backend en Java / Spring Boot** a través de endpoints REST bien definidos para usuarios, clientes y administradores.
   
-## Flujo general
-1. El usuario ingresa a la app (React) y se conecta al backend (Spring Boot).
-2. Puede navegar productos, agregarlos al carrito y realizar pagos mediante Mercado Pago.
-3. Backend valida usuarios con JWT, maneja la persistencia en MySQL y conecta con servicios externos (Cloudinary para imágenes, Supabase para almacenamiento adicional).
+**Flujo general:**
+1. El usuario interactúa con la aplicación en React (navegación de productos, carrito, checkout).
+2. El frontend realiza peticiones a los **controllers del backend**, los cuales procesan la lógica de negocio y gestionan la persistencia en la base de datos.
+3. El backend valida usuarios con JWT y maneja la seguridad de cada endpoint según el rol (usuario, cliente, admin).
+4. El backend y frontend están desplegados en la nube:
+   - **Frontend:** Vercel / Render
+   - **Backend:** Render / Oracle / Supabase
+5. Se consumen APIs externas para funcionalidades clave:
+   - **Pagos:** Mercado Pago, PayPal
+   - **Almacenamiento de archivos e imágenes:** Cloudinary
+6. La aplicación incluye buenas prácticas profesionales:
+   - Estructura modular y escalable
+   - Manejo de logs para backend y frontend
+   - Testeo unitario y de integración en ambas capas
+   - Gestión de errores y validaciones consistentes
+7. La arquitectura permite escalabilidad futura y facilita integración con nuevos servicios y microservicios.
+
+> ⚠️ Todas las interacciones mostradas en el proyecto utilizan datos ficticios para proteger información sensible.
 
 ## Por qué estas tecnologías
 - **Spring Boot:** rápido desarrollo y robustez para APIs.
@@ -58,9 +72,7 @@ Es un proyecto de e-commerce fullstack que demuestra buenas prácticas de arquit
 - **JWT:** seguridad en autenticación.
 - **Docker:** despliegue reproducible.
 
-- El código completo se mantiene privado por motivos de seguridad. Este repositorio muestra la estructura y tecnologías utilizadas.
-
-- ## Capturas de la app en funcionamiento
+## Capturas de la app en funcionamiento
 
 ### Home
 
@@ -74,7 +86,7 @@ Es un proyecto de e-commerce fullstack que demuestra buenas prácticas de arquit
 
 <img width="1916" height="935" alt="Captura de pantalla 2025-09-22 142405" src="https://github.com/user-attachments/assets/70df1e0c-4597-40cc-89b0-e40f19693dcb" />
 
-> Las capturas muestran la interfaz de KeyLab con datos ficticios para proteger información sensible.
+Las capturas muestran la interfaz de KeyLab con datos ficticios para proteger información sensible.
 
 ## Licencia y variables de entorno
 
