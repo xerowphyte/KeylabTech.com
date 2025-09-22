@@ -44,7 +44,7 @@ Es un proyecto de e-commerce fullstack que demuestra buenas prácticas de arquit
 
 ---
   
-### **Flujo de la aplicación / Ejemplo de uso**
+## **Flujo de la aplicación / Ejemplo de uso**
 KeyLabTech es un e-commerce fullstack con arquitectura moderna, donde el **frontend en React** interactúa con el **backend en Java / Spring Boot** a través de endpoints REST bien definidos para usuarios, clientes y administradores.
   
 **Flujo general:**
@@ -67,6 +67,7 @@ KeyLabTech es un e-commerce fullstack con arquitectura moderna, donde el **front
 > ⚠️ Todas las interacciones mostradas en el proyecto utilizan datos ficticios para proteger información sensible.
 
 ## Por qué estas tecnologías
+
 - **Spring Boot:** rápido desarrollo y robustez para APIs.
 - **React + Vite:** SPA moderna y eficiente.
 - **JWT:** seguridad en autenticación.
@@ -90,6 +91,6 @@ Las capturas muestran la interfaz de KeyLab con datos ficticios para proteger in
 
 ## Licencia y variables de entorno
 
-- ⚠️ El código completo se mantiene privado por motivos de seguridad.
+- El código completo se mantiene privado por motivos de seguridad ⚠️.
 - Se incluye `.env.example` para mostrar qué variables de entorno se necesitan.
 - Este proyecto está protegido y no se permite uso comercial sin autorización.
