@@ -49,13 +49,8 @@ backend/
 
 ### Frontend 
 
-frontend/
-├─ src/
-│ ├─ components/
-│ ├─ pages/
-│ ├─ services/
-│ └─ styles/
-├─ public/
+
+<img width="331" height="1000" alt="Captura de pantalla 2025-09-22 140040" src="https://github.com/user-attachments/assets/a268dd5c-ae82-4ab8-bc82-ed116c153fbb" />
 
 ---
 
