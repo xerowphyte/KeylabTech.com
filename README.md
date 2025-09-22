@@ -43,10 +43,10 @@ Es un proyecto de e-commerce fullstack que demuestra buenas prácticas de arquit
 <img width="331" height="1000" alt="Captura de pantalla 2025-09-22 140040" src="https://github.com/user-attachments/assets/a268dd5c-ae82-4ab8-bc82-ed116c153fbb" />
 
 ---
-
-### 4️⃣ **Flujo de la aplicación / Ejemplo de uso**
+  
+### **Flujo de la aplicación / Ejemplo de uso**
 - Explica cómo se conectan frontend y backend, cómo se hace login, carrito, pago (sin mostrar código sensible).
-```markdown
+  
 ## Flujo general
 1. El usuario ingresa a la app (React) y se conecta al backend (Spring Boot).
 2. Puede navegar productos, agregarlos al carrito y realizar pagos mediante Mercado Pago.
@@ -58,4 +58,4 @@ Es un proyecto de e-commerce fullstack que demuestra buenas prácticas de arquit
 - **JWT:** seguridad en autenticación.
 - **Docker:** despliegue reproducible.
 
-- > ⚠️ El código completo se mantiene privado por motivos de seguridad. Este repositorio muestra la estructura y tecnologías utilizadas.
+- > El código completo se mantiene privado por motivos de seguridad. Este repositorio muestra la estructura y tecnologías utilizadas.
