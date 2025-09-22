@@ -7,15 +7,29 @@ Es un proyecto de e-commerce fullstack que demuestra buenas prácticas de arquit
 - **Frontend:** React, Tailwind, Vite
 - **Otros:** JWT, Docker, Render, Supabase, Cloudinary, Mercado Pago.
 
-## Arquitectura
+## Arquitectura del proyecto
 
-[Frontend React] <---> [Backend Spring Boot] <---> [MySQL Database]
-                                |
-                                v
-                         [Servicios externos]
-                         - Cloudinary
-                         - Mercado Pago
-                         - Supabase
+             ┌─────────────┐
+             │ Frontend    │
+             │ React / Vite│
+             └─────┬───────┘
+                   │
+                   ▼
+             ┌─────────────┐
+             │ Backend     │
+             │ Spring Boot │
+             └─────┬───────┘
+                   │
+          ┌────────┴────────┐
+          │                 │
+          ▼                 ▼
+    ┌─────────────┐   ┌─────────────┐
+    │ MySQL DB    │   │ Servicios   │
+    │             │   │ Externos    │
+    │             │   │ -Cloudinary │
+    │             │   │ -MercadoPago│
+    │             │   │ -Supabase   │
+    └─────────────┘   └─────────────┘
                          
 ## Estructura del proyecto
 
