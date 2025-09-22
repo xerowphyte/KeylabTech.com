@@ -34,21 +34,11 @@ Es un proyecto de e-commerce fullstack que demuestra buenas prácticas de arquit
 ## Estructura del proyecto
 
 ### Backend
-backend/
-├─ src/
-│ ├─ main/
-│ │ ├─ java/
-│ │ │ └─ com.keylab/
-│ │ │ ├─ controllers/
-│ │ │ ├─ services/
-│ │ │ ├─ models/
-│ │ │ ├─ repositories/
-│ │ │ └─ config/
-│ │ └─ resources/
-│ │ └─ application.properties
+
+<img width="342" height="1022" alt="Captura de pantalla 2025-09-22 141258" src="https://github.com/user-attachments/assets/150d38e6-c7f4-41e8-940d-d3a21c58facb" />
+
 
 ### Frontend 
-
 
 <img width="331" height="1000" alt="Captura de pantalla 2025-09-22 140040" src="https://github.com/user-attachments/assets/a268dd5c-ae82-4ab8-bc82-ed116c153fbb" />
 
