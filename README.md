@@ -52,7 +52,7 @@ KeyLabTech es un e-commerce fullstack con arquitectura moderna, donde el **front
 2. El frontend realiza peticiones a los **controllers del backend**, los cuales procesan la lógica de negocio y gestionan la persistencia en la base de datos.
 3. El backend valida usuarios con JWT y maneja la seguridad de cada endpoint según el rol (usuario, cliente, admin).
 4. El backend y frontend están desplegados en la nube:
-   - **Frontend:** Vercel / Render
+   - **Frontend:** Vercel
    - **Backend:** Render / Oracle / Supabase
 5. Se consumen APIs externas para funcionalidades clave:
    - **Pagos:** Mercado Pago, PayPal
